@@ -1,0 +1,35 @@
+{
+  "video_id": "f8195276-b7a9-489f-9827-490f61656c26",
+  "difficulty": "Intermediate",
+  "subject": "General",
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "theory": [
+        {
+          "title": "Why Python is popular",
+          "explanation": "Its simple and beginner-friendly syntax."
+        }
+      ],
+      "formulas": [],
+      "examples": [],
+      "key_points": [
+        "Python is the most popular programming language in the world",
+        "It's an interpreted language"
+      ]
+    }
+  ],
+  "theory": [
+    {
+      "title": "Why Python is popular",
+      "explanation": "Its simple and beginner-friendly syntax."
+    }
+  ],
+  "formulas": [],
+  "examples": [],
+  "practical": [],
+  "cheat_sheet": [
+    "Python is the most popular programming language in the world",
+    "It's an interpreted language"
+  ]
+}

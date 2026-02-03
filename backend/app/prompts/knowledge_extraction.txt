@@ -1,0 +1,30 @@
+Chunk Text: """
+{text}
+"""
+
+You are an expert professor and academic researcher. Your task is to analyze the transcript chunk provided above and extract structured educational content.
+
+Return ONLY a strict JSON object with the following schema:
+{
+  "theory": [
+    {"title": "Concept Name", "explanation": "Detailed explanation of the concept."}
+  ],
+  "formulas": [
+    {"name": "Formula Name", "expression": "Mathematical expression (e.g., E=mc^2)", "explanation": "What the formula calculates and variable definitions."}
+  ],
+  "examples": [
+    {"question": "Problem statement discussed in text", "solution": "Step-by-step solution provided in text"}
+  ],
+  "practical": [
+    {"description": "Real-world scenario or coding task", "code_snippet": "print('Hello World') # If code is present", "usage": "How to use/apply this"}
+  ],
+  "key_points": [
+    "Concise bullet point 1 (max 15 words)",
+    "Concise bullet point 2"
+  ]
+}
+
+Rules:
+1. If no theory/formulas/examples are present in this specific chunk, return empty lists [].
+2. Do NOT hallucinate. Only extract what is explicitly discussed.
+3. Ensure the JSON is valid and parseable.

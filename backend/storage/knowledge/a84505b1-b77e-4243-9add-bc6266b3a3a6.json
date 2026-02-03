@@ -1,0 +1,44 @@
+{
+  "video_id": "a84505b1-b77e-4243-9add-bc6266b3a3a6",
+  "difficulty": "Intermediate",
+  "subject": "General",
+  "chunks": [
+    {
+      "chunk_id": 0,
+      "theory": [
+        {
+          "title": "Hello World",
+          "explanation": "A classic program that uses the print function to display text on the screen."
+        }
+      ],
+      "formulas": [],
+      "examples": [
+        {
+          "question": "Let's start with the classic Hello World program in Python.",
+          "solution": "This one line of code uses the print function to display text on the screen. Now let's run the code. And there it is. Python prints Hello World to the console."
+        }
+      ],
+      "key_points": [
+        "Print is a built-in function",
+        "Hello World is a string, which is just text inside quotes"
+      ]
+    }
+  ],
+  "theory": [
+    {
+      "title": "Hello World",
+      "explanation": "A classic program that uses the print function to display text on the screen."
+    }
+  ],
+  "formulas": [],
+  "examples": [
+    {
+      "question": "Let's start with the classic Hello World program in Python.",
+      "solution": "This one line of code uses the print function to display text on the screen. Now let's run the code. And there it is. Python prints Hello World to the console."
+    }
+  ],
+  "cheat_sheet": [
+    "Print is a built-in function",
+    "Hello World is a string, which is just text inside quotes"
+  ]
+}
